@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="676a7404-3f67-40ea-a345-5052bb0168b7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4505/BookNS/Library" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Library.xsd" MetadataType="Schema" ID="7c926354-14fa-4e37-85ed-a6facc79a4ce" SourceId="1" SourceUrl="http://localhost:4505/BookNS/Library?xsd=xsd1" />
+    <MetadataFile FileName="Library1.xsd" MetadataType="Schema" ID="053106c3-2473-49d3-99ee-6b3bbc06f87b" SourceId="1" SourceUrl="http://localhost:4505/BookNS/Library?xsd=xsd2" />
+    <MetadataFile FileName="Library.disco" MetadataType="Disco" ID="bf39e08b-8e91-4049-a571-b824b4f2dd41" SourceId="1" SourceUrl="http://localhost:4505/BookNS/Library?disco" />
+    <MetadataFile FileName="Library.wsdl" MetadataType="Wsdl" ID="356307cf-f8b1-4542-9d2b-4c0026f93e0c" SourceId="1" SourceUrl="http://localhost:4505/BookNS/Library?wsdl" />
+    <MetadataFile FileName="Library2.xsd" MetadataType="Schema" ID="e096b1f0-4449-4505-874a-6691585701f3" SourceId="1" SourceUrl="http://localhost:4505/BookNS/Library?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
